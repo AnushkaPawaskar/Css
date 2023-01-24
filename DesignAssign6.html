@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6</title>
+    <style>
+      .header {
+        width: 97vw;
+        border: 5px dotted red;
+        height: 15rem;
+      }
+      .headobj {
+        display: inline-block;
+        margin: 0;
+        width: 25%;
+        height: 15rem;
+      }
+      .headobjm {
+        display: inline-block;
+        margin: 0;
+        width: 44%;
+        border-top: none;
+        border-bottom: none;
+        height: 15rem;
+      }
+      .header .headtxt {
+        height: 5rem;
+        width: 5rem;
+        position: absolute;
+        top: 3rem;
+        margin-top: 8rem;
+      }
+      #boxofrow {
+        margin-top: 1.6rem;
+      }
+      .rowbox {
+        width: 70vw;
+        margin: auto;
+        height: 4rem;
+        position: relative;
+        padding: 0.2rem;
+      }
+      .imgleft {
+        position: absolute;
+        left: 5rem;
+        border: 2px solid red;
+        height: inherit;
+        width: 11rem;
+      }
+      .imgright {
+        position: absolute;
+        right: 5rem;
+        border: 2px solid red;
+        height: inherit;
+        width: 11rem;
+      }
+      .imgmid {
+        border: 2px solid red;
+        height: inherit;
+        width: 12rem;
+        margin-left: 41%;
+      }
+      .p1 {
+        width: 60vw;
+        border: 0.5rem double black;
+        margin: 0;
+        height: 3.3rem;
+        margin-bottom: 0;
+        display: inline-block;
+      }
+      .para {
+        margin: 2rem;
+        position: absolute;
+        width: 96vw;
+      }
+      table {
+        width: 60vw;
+        margin: auto;
+        display: inline-block;
+      }
+      .limg {
+        position: relative;
+        right: 0;
+        display: inline-block;
+      }
+      .limg img {
+        border: 2px solid black;
+        margin: auto;
+      }
+      .table {
+        display: inline-block;
+        border: 2px solid rgb(251, 0, 0);
+        width: 70vw;
+      }
+      .nav {
+        height: 4rem;
+        border: 2px solid red;
+        width: 97vw;
+      }
+      .leftnav {
+        border: 2px solid red;
+        display: inline-block;
+        width: 32.8%;
+        height: inherit;
+        align-items: baseline;
+      }
+      .leftnavtxt{
+         border: 2px solid red;
+         display: inline-block;  
+         right: 0; 
+      }
+      .rightnav {
+        border: 2px solid red;
+        display: inline-block;
+        width: 32.8%;
+        height: inherit;
+      }
+      .rightnavtxt{
+          border: 2px solid red;
+          display: inline-block;
+          position: relative;
+      }
+      .midnav {
+        border: 2px solid red;
+        display: inline-block;
+        width: 32.8%;
+        height: inherit;
+      }
+      .midnavimg{
+          border: 2px solid red;
+          display: inline-block;
+          position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="leftnav">
+        <div class="leftnavtxt">
+          <a href="#">Home</a>
+          <a href="#">Course</a>
+        </div>
+      </div>
+      <div class="midnav">
+        <div class="midnavimg">
+          <img src="" alt="img" style="margin: auto" />
+        </div>
+      </div>
+      <div class="rightnav">
+        <div class="rightnavtxt">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="header">
+      <div class="headobj" style="border-right: 5px dotted red"></div>
+      <div class="headobjm">
+        <div class="headtxt" style="margin-left: 19%">
+          <span
+            style="
+              text-align: center;
+              font-size: 2rem;
+              font-weight: bold;
+              text-align: center;
+            "
+            >WEBx86</span
+          >
+          <span style="text-align: center; font-size: 1.6rem">INFOTECH</span>
+        </div>
+      </div>
+      <div class="headobj" style="border-left: 5px dotted red"></div>
+    </div>
+    <div id="boxofrow">
+      <div class="rowbox">
+        <img src="" alt="img" class="imgleft" />
+        <img src="" alt="img" class="imgright" />
+      </div>
+      <div class="rowbox">
+        <img src="" alt="img" class="imgleft" />
+        <img src="" alt="img" class="imgright" />
+      </div>
+      <div class="rowbox">
+        <img src="" alt="img" class="imgleft" />
+        <img src="" alt="" class="imgmid" />
+        <img src="" alt="img" class="imgright" />
+      </div>
+      <div class="rowbox">
+        <img src="" alt="img" class="imgleft" />
+        <img
+          src=""
+          alt="img"
+          class="imgl"
+          style="
+            position: absolute;
+            left: 24.4%;
+            border: 2px solid red;
+            height: inherit;
+            width: 10.5rem;
+          "
+        />
+        <img src="" alt="img" class="imgright" />
+        <img
+          src=""
+          alt="img"
+          class="imgr"
+          style="
+            position: absolute;
+            right: 24.4%;
+            border: 2px solid red;
+            height: inherit;
+            width: 10.5rem;
+          "
+        />
+      </div>
+      <div class="rowbox">
+        <img src="" alt="img" class="imgleft" />
+        <img src="" alt="img" class="imgright" />
+      </div>
+    </div>
+    <div class="para">
+      <table border="2px">
+        <tr>
+          <td>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              ullam numquam aliquid incidunt veniam corrupti quis eos enim amet
+              fuga iure nam omnis ducimus consequuntur fugit voluptatum ad
+              accusantium tenetur!
+            </p>
+          </td>
+          <td>
+            <img src="" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              ullam numquam aliquid incidunt veniam corrupti quis eos enim amet
+              fuga iure nam omnis ducimus consequuntur fugit voluptatum ad
+              accusantium tenetur!
+            </p>
+          </td>
+          <td>
+            <img src="" alt="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis expedita consequuntur accusamus non sint ut obcaecati,
+              nam veniam recusandae soluta voluptatibus tempore eveniet sunt.
+              Rerum architecto aliquid vel similique, debitis deleniti
+              accusantium atque sit voluptas numquam voluptates natus nobis sunt
+              placeat iure quibusdam hic corrupti a amet rem eveniet nisi?
+            </p>
+          </td>
+          <td>
+            <img src="" alt="" />
+          </td>
+        </tr>
+      </table>
+      <div class="limg" style="width: 25vw; height: 16.39rem; float: right">
+        <div
+          style="
+            border: 2px dashed black;
+            height: 7.4rem;
+            border-radius: 5rem;
+            margin: 5px;
+          "
+        >
+          <img src="" alt="img" style="margin-top: 3rem; margin-left: 10rem" />
+        </div>
+        <div
+          style="
+            border: 2px dashed black;
+            height: 7.4rem;
+            border-radius: 5rem;
+            margin: 5px;
+          "
+        >
+          <img src="" alt="img" style="margin-top: 3rem; margin-left: 10rem" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
